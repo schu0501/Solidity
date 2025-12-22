@@ -1,6 +1,6 @@
 
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.30;
+pragma solidity ^0.8.28;
 
 contract Hello3Dot0 {
     // string public hello = "hello 3.0!";
