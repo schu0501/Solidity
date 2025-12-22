@@ -1,5 +1,3 @@
-非常棒的选择。对于有 **Java** 和 **Go** 背景的开发者来说，使用 **TypeScript** 开发 Hardhat 项目是绝对的“舒适区”。
-
 JavaScript 的弱类型在处理金融相关的智能合约交互时是非常危险的（例如把字符串数字传成了整数，或者拼写错了函数名）。TypeScript 配合 **TypeChain** 插件，可以给你提供类似 Java 的**编译时检查**和 **IDE 智能提示**。
 
 这是使用 TypeScript 配置 Hardhat 的完整指南。
@@ -19,6 +17,7 @@ npx hardhat init
 
 **关键步骤：**
 在出现的选项中，**务必选择**：
+
 `> Create a TypeScript project`
 
 Hardhat 会自动帮你安装核心依赖，包括：
