@@ -170,6 +170,3 @@ npx hardhat run scripts/deploy.ts --network localhost
 | **合约方法调用** | `contract.tranfer(to, val)` (拼写错不报错) | `contract.transfer(to, val)` (编译不过) | 像在调用 Java 类的方法 |
 | **IDE 支持** | 只能靠记忆或看文档 | 点号(`.`)自动列出所有合约方法 | 像 IntelliJ IDEA 的补全 |
 | **重构** | 修改合约方法名后，JS 测试代码很难找全 | TS 直接报红所有调用处 | 安全感拉满 |
-
-**下一步建议：**
-既然环境已经升级为 TypeScript，要不要尝试写一个**带有自定义结构体（Struct）**的 Solidity 合约，然后在 TypeScript 测试代码中尝试解析这个结构体？这能让你深刻体会 TypeChain 带来的便利。
